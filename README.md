@@ -7,6 +7,6 @@
 
 - Tein pelille erillisen OSM xml datan muokkaus ohjelman Visual Studiota käyttäen, koska en löytänyt netistä vastinetta. Ohjelma käytti trie data struktuuria yhdistämään ja suodattamaan n. 900 miljoonaa Suomen teiden koordinaatteja sopivampaan muotoon (OSM datan tie merkinnöissä oli vain viittaukset varsinasiin koordinaatteihin). Sekä lajitteli n.5 neliökilometrin kokoisia alueita koordinaattien perusteella nimettyihin kansioihin. Jotka sitten lopulta latasin Google Cloudiin. Tein tästä 5 eri versiota joista ensimmäisellä olisi menny 5 vuotta lajitella kaikki koordinaatit. Sain ajan vähennettyä viimeisimmässä versiossa 5 minuuttiin.
 - Tiet on piirretty 3D pallon muotoiselle objektille, koska 2D alustalla koordinaatit vääristyivät hieman. 3D koordinaatit on laskettu mapallon säteen mukaan.
-- Tiet on piirretty Unityn kolmioiden piirto työkaluilla tehden mahdollisimman yhtenäisiä objekteja, jotta suorituskyky ei kärsisi.
+- Tiet on piirretty Unityn kolmioiden piirto työkaluilla tehden mahdollisimman yhtenäisiä objekteja, jotta suorituskyky ei kärsisi. Teiden saaminen oikein päin ja oikeisiin kohtiin 3D alustalla ei ollut mikään erityisen helppo homma. 
 - Peli objektien koot muokkautuvat kameran etäisyyden perusteella
-- Tämä oli ensimmäinen koodaus projektini joten siinä meni noin 2 kuukautta. Opin yllättävän paljon data struktuureista ja järjestely algoritmeista sekä myös Google Cloudin käyttöä
+- Tämä oli yksi ensimmäisistä projekteistani joten siinä meni noin 2 kuukautta. Opin yllättävän paljon data struktuureista ja järjestely algoritmeista sekä myös Google Cloudin käyttöä
